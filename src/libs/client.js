@@ -1,4 +1,4 @@
-import io from 'socket.io-client/socket.io';
+import io from 'socket.io-client';
 
 export default function connectIO(
     {

@@ -1,10 +1,10 @@
 {
   "name": "rabbitsocketioclient",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "build/main.js",
   "dependencies": {
-    "socket.io-client": "^1.5.1"
+    "socket.io-client": "^1.7.0"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
