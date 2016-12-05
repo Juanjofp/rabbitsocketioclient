@@ -22,7 +22,7 @@
     "start": "cd src && nodemon main.js --exec babel-node",
     "clientsample": "cd samples && babel-node clientsample.js"
   },
-  "author": "juanjofp",
+  "author": "juanjofp, francescorivola",
   "repository" :
   {
       "type" : "git",
