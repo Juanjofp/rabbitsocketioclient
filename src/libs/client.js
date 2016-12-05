@@ -3,13 +3,13 @@ import io from 'socket.io-client';
 export default function connectIO(
     {
         protocol = 'ws',
-        server = 'localhost',
+        hostname = 'localhost',
         port = '8001',
         onData,
         onError
     } = {}
 ) {
-    const URL = `${protocol}://${server}:${port}/`;
+    const URL = `${protocol}://${hostname}:${port}/`;
     console.log('Try to connect', URL);
     let socket = io(
         URL,
