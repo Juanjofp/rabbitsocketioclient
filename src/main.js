@@ -4,7 +4,7 @@ export const Client = ClientLib;
 /*
 {
     protocol = 'ws',
-    server = 'localhost',
+    hostname = 'localhost',
     port = '8001',
     onData,
     onError
